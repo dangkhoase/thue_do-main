@@ -12,8 +12,12 @@ function Header({ title, onBack }) {
             <button className={cx('back-btn')} onClick={onBack}>
                 <FontAwesomeIcon icon={faChevronLeft} />
             </button>
+            <button className={cx('back-btn')} onClick={onBack}>
+                <FontAwesomeIcon icon={faChevronLeft} />
+            </button>
             <h4 className={cx('header-title')}>{title}</h4>
         </header>
+        
     );
 }
 
